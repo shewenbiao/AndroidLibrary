@@ -1,5 +1,5 @@
 # AndroidLibrary
-Android主流的一些第三方库，Android官方库，常用插件，开发工具，技术网站，技术公众号，学习资料等
+Android主流的一些第三方库，Android官方库，常用插件，开发工具，常用网站，公众号，学习资料等
 
 ## <a name="index">Index </a> 
    * <a href="#0">1. 网络库</a>  
@@ -38,16 +38,17 @@ Android主流的一些第三方库，Android官方库，常用插件，开发工
       * <a href="#33">19.3. 动画</a>  
       * <a href="#34">19.4. 布局</a>  
       * <a href="#35">19.5. 列表</a>  
-      * <a href="#36">19.6. 其他</a>  
-   * <a href="#37">20. 开发工具</a>  
-   * <a href="#38">21. 插件</a>  
-      * <a href="#39">21.1. AndroidStudio插件</a>  
-      * <a href="#40">21.2. Chrome插件</a>  
-   * <a href="#41">22. 技术网站/公众号/学习资料等</a>  
-      * <a href="#42">22.1. 网站</a>  
-      * <a href="#43">22.2. 微信公众号</a>  
-      * <a href="#44">22.3. 应用软件</a>  
-      * <a href="#45">22.4. 书籍</a>  
+      * <a href="#36">19.6. 状态栏工具</a>  
+      * <a href="#37">19.7. 其他</a>  
+   * <a href="#38">20. 开发工具</a>  
+   * <a href="#39">21. 插件</a>  
+      * <a href="#40">21.1. AndroidStudio插件</a>  
+      * <a href="#41">21.2. Chrome插件</a>  
+   * <a href="#42">22. 常用网站/公众号/学习资料等</a>  
+      * <a href="#43">22.1. 常用网站</a>  
+      * <a href="#44">22.2. 微信公众号</a>  
+      * <a href="#45">22.3. 应用软件</a>  
+      * <a href="#46">22.4. 书籍</a>  
 
 ## <a name="0">1. 网络库</a><a style="float:right;text-decoration:none;" href="#index"> [Top]</a>
 | 主流框架            | 介绍      | 特点  | 优点  | 缺点  | 官网或相关地址 |
@@ -316,6 +317,9 @@ android {
 | FlexboxLayout | 将 CSS 弹性框布局模块的类似功能引入 Android。  | ---   | --- | https://github.com/google/flexbox-layout |
 | hover | 悬浮按钮  | ---   | --- | https://https://github.com/google/hover |
 | TapTargetView | Material design功能引导视图  | ---   | --- | https://github.com/KeepSafe/TapTargetView |
+| GuideView | 新手引导库  | ---   | --- | https://github.com/binIoter/GuideView |
+| EasyFloat | 悬浮窗框架  | ---   | --- | https://github.com/princekin-f/EasyFloat |
+| vlayout | 阿里出品。RecyclerView 的一个强大的 LayoutManager 扩展，它为 RecyclerView 提供了一组布局。 使其能够处理网格、列表和其他布局在同一个RecylerView时的复杂情况。  | ---   | --- | https://github.com/alibaba/vlayout |
 
 
 ### <a name="35">19.5. 列表</a><a style="float:right;text-decoration:none;" href="#index"> [Top]</a>
@@ -324,14 +328,21 @@ android {
 | BaseRecyclerViewAdapterHelper | 强大而灵活的RecyclerView Adapter, 可以实现多种复杂布局 | ---   | --- | https://github.com/CymChad/BaseRecyclerViewAdapterHelper |
 
 
-### <a name="36">19.6. 其他</a><a style="float:right;text-decoration:none;" href="#index"> [Top]</a>
+### <a name="36">19.6. 状态栏工具</a><a style="float:right;text-decoration:none;" href="#index"> [Top]</a>
+| 主流框架  | 介绍  | 优点  | 缺点  |  官网或相关地址      |
+|:----------|:----------|:----------|:----------|:----------|
+| StatusBarUtil | 这是一个为Android App 设置状态栏的工具类，可以在4.4及其以上系统中实现沉浸式状态栏/状态栏变色，支持设置状态栏透明度等 | ---   | --- | https://github.com/laobie/StatusBarUtil |
+| ImmersionBar | android 4.4以上沉浸式状态栏和沉浸式导航栏管理，适配横竖屏切换、刘海屏、软键盘弹出等问题 | ---   | --- | https://github.com/gyf-dev/ImmersionBar |
+
+
+### <a name="37">19.7. 其他</a><a style="float:right;text-decoration:none;" href="#index"> [Top]</a>
 
 1. [awesome-android-ui](https://github.com/wasabeef/awesome-android-ui)
  
     一个很棒的 Android UI/UX 库的精选列表。汇集了很多精美的第三方UI库，每个库都带有动图预览效果。
 
 
-## <a name="37">20. 开发工具</a><a style="float:right;text-decoration:none;" href="#index"> [Top]</a>
+## <a name="38">20. 开发工具</a><a style="float:right;text-decoration:none;" href="#index"> [Top]</a>
 
 1. [AndroidStudio](https://developer.android.google.cn/studio)
 
@@ -390,9 +401,9 @@ android {
      免费。简单易用，具有基本数据库管理查询功能，并且能够导入和导出数据表，导入支持sql文件和csv文件两种方式，导出支持sql文件，csv文件，json文件方式。
      
 
-## <a name="38">21. 插件</a><a style="float:right;text-decoration:none;" href="#index"> [Top]</a>
+## <a name="39">21. 插件</a><a style="float:right;text-decoration:none;" href="#index"> [Top]</a>
 
-### <a name="39">21.1. AndroidStudio插件</a><a style="float:right;text-decoration:none;" href="#index"> [Top]</a>
+### <a name="40">21.1. AndroidStudio插件</a><a style="float:right;text-decoration:none;" href="#index"> [Top]</a>
 
 1. GsonFormatPlus
    
@@ -415,7 +426,7 @@ android {
    可以根据Activity或者fragment的生命周期对其生命周期方法位置进行先后排序， Windows 快捷键Ctrl + alt + K . Mac 快捷键 option + command + K
 
 
-### <a name="40">21.2. Chrome插件</a><a style="float:right;text-decoration:none;" href="#index"> [Top]</a>
+### <a name="41">21.2. Chrome插件</a><a style="float:right;text-decoration:none;" href="#index"> [Top]</a>
 
 1. [掘金插件](https://juejin.cn/extension/)
 
@@ -423,23 +434,29 @@ android {
 
    谷歌上网助手。供开发人员、跨境工作者和研究机构使用，以保护和加速互联网冲浪（翻墙）。能访问google的一些网站。
 
-## <a name="41">22. 技术网站/公众号/学习资料等</a><a style="float:right;text-decoration:none;" href="#index"> [Top]</a>
+## <a name="42">22. 常用网站/公众号/学习资料等</a><a style="float:right;text-decoration:none;" href="#index"> [Top]</a>
 
-### <a name="42">22.1. 网站</a><a style="float:right;text-decoration:none;" href="#index"> [Top]</a>
+### <a name="43">22.1. 常用网站</a><a style="float:right;text-decoration:none;" href="#index"> [Top]</a>
 1. [Android官网](https://developer.android.com/)
 2. [Android中文网](https://developer.android.google.cn/)
 3. [Kotlin语言官网](https://kotlinlang.org/)
 4. [Kotlin语言中文网](https://www.kotlincn.net/)
-5. [Android Developers Blog](https://android-developers.googleblog.com/)
-6. [掘金](https://juejin.cn/)
-7. [CSDN](https://www.csdn.net/)
-8. [泡在网上的日子](http://www.jcodecraeer.com/)
-9. [美团技术团队](https://tech.meituan.com/)
-10. [腾讯技术工程(知乎网)](https://www.zhihu.com/org/teng-xun-ji-zhu-gong-cheng/posts)
-11. [阿里技术](https://102.alibaba.com/)
-12. [阿里技术(知乎网)](https://www.zhihu.com/org/a-li-ji-zhu)
+5. [StackOverflow（IT技术问答网站）](https://stackoverflow.com/)
+6. [Android Developers Blog](https://android-developers.googleblog.com/)
+7. [掘金](https://juejin.cn/)
+8. [CSDN（全球最大中文IT社区）](https://www.csdn.net/)
+9. [开源中国](https://www.oschina.net/)
+10. [泡在网上的日子](http://www.jcodecraeer.com/)
+11. [美团技术团队](https://tech.meituan.com/)
+12. [腾讯技术工程(知乎网)](https://www.zhihu.com/org/teng-xun-ji-zhu-gong-cheng/posts)
+13. [阿里技术](https://102.alibaba.com/)
+14. [阿里技术(知乎网)](https://www.zhihu.com/org/a-li-ji-zhu)
+15. [AndroidDevTools（各种android相关工具下载）](https://www.androiddevtools.cn/index.html)
+16. [阿里巴巴矢量图标库](http://www.iconfont.cn/)
+17. [HenCoder（扔物线朱凯）](https://hencoder.com/)
 
-### <a name="43">22.2. 微信公众号</a><a style="float:right;text-decoration:none;" href="#index"> [Top]</a>
+
+### <a name="44">22.2. 微信公众号</a><a style="float:right;text-decoration:none;" href="#index"> [Top]</a>
 1. Android开发者
 2. 谷歌开发者
 3. 安卓开发精选
@@ -450,12 +467,12 @@ android {
 8. 腾讯技术工程
 9. WeMobileDev
 
-### <a name="44">22.3. 应用软件</a><a style="float:right;text-decoration:none;" href="#index"> [Top]</a>
+### <a name="45">22.3. 应用软件</a><a style="float:right;text-decoration:none;" href="#index"> [Top]</a>
 1. 掘金
 2. 知乎
 3. CSDN
 
-### <a name="45">22.4. 书籍</a><a style="float:right;text-decoration:none;" href="#index"> [Top]</a>
+### <a name="46">22.4. 书籍</a><a style="float:right;text-decoration:none;" href="#index"> [Top]</a>
 1. Java编程思想
 2. Effective Java
 3. 代码整洁之道（Clean Code）
