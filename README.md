@@ -1,5 +1,5 @@
 # AndroidLibrary
-Android主流的一些第三方库，Android官方库，常用插件，技术网站，技术公众号等
+Android主流的一些第三方库，Android官方库，常用插件，开发工具，技术网站，技术公众号，学习资料等
 
 ## <a name="index">Index </a> 
    * <a href="#0">1. 网络库</a>  
@@ -36,9 +36,18 @@ Android主流的一些第三方库，Android官方库，常用插件，技术网
          * <a href="#31">19.2.6. 图片展示控件</a>  
          * <a href="#32">19.2.7. 图片选择器</a>  
       * <a href="#33">19.3. 动画</a>  
-      * <a href="#34">19.4. Layout</a>  
-      * <a href="#35">19.5. List/Grid</a>  
-      * <a href="#36">19.6. Other</a>  
+      * <a href="#34">19.4. 布局</a>  
+      * <a href="#35">19.5. 列表</a>  
+      * <a href="#36">19.6. 其他</a>  
+   * <a href="#37">20. 开发工具</a>  
+   * <a href="#38">21. 插件</a>  
+      * <a href="#39">21.1. AndroidStudio插件</a>  
+      * <a href="#40">21.2. Chrome插件</a>  
+   * <a href="#41">22. 技术网站/公众号/学习资料等</a>  
+      * <a href="#42">22.1. 网站</a>  
+      * <a href="#43">22.2. 微信公众号</a>  
+      * <a href="#44">22.3. 应用软件</a>  
+      * <a href="#45">22.4. 书籍</a>  
 
 ## <a name="0">1. 网络库</a><a style="float:right;text-decoration:none;" href="#index"> [Top]</a>
 | 主流框架            | 介绍      | 特点  | 优点  | 缺点  | 官网或相关地址 |
@@ -296,7 +305,7 @@ android {
 | recyclerview-animators  | 一个 Android 动画库，可以轻松地将 itemanimator 添加到 RecyclerView 项目。 | ---   | --- | https://github.com/wasabeef/recyclerview-animators |
 
 
-### <a name="34">19.4. Layout</a><a style="float:right;text-decoration:none;" href="#index"> [Top]</a>
+### <a name="34">19.4. 布局</a><a style="float:right;text-decoration:none;" href="#index"> [Top]</a>
 | 主流框架  | 介绍  | 优点  | 缺点  |  官网或相关地址      |
 |:----------|:----------|:----------|:----------|:----------|
 | WaveView | android 的波浪视图 | ---   | --- | https://github.com/john990/WaveView <br> https://github.com/gelitenight/WaveView |
@@ -309,13 +318,146 @@ android {
 | TapTargetView | Material design功能引导视图  | ---   | --- | https://github.com/KeepSafe/TapTargetView |
 
 
-### <a name="35">19.5. List/Grid</a><a style="float:right;text-decoration:none;" href="#index"> [Top]</a>
+### <a name="35">19.5. 列表</a><a style="float:right;text-decoration:none;" href="#index"> [Top]</a>
 | 主流框架  | 介绍  | 优点  | 缺点  |  官网或相关地址      |
 |:----------|:----------|:----------|:----------|:----------|
 | BaseRecyclerViewAdapterHelper | 强大而灵活的RecyclerView Adapter, 可以实现多种复杂布局 | ---   | --- | https://github.com/CymChad/BaseRecyclerViewAdapterHelper |
 
 
-### <a name="36">19.6. Other</a><a style="float:right;text-decoration:none;" href="#index"> [Top]</a>
+### <a name="36">19.6. 其他</a><a style="float:right;text-decoration:none;" href="#index"> [Top]</a>
+
 1. [awesome-android-ui](https://github.com/wasabeef/awesome-android-ui)
  
     一个很棒的 Android UI/UX 库的精选列表。汇集了很多精美的第三方UI库，每个库都带有动图预览效果。
+
+
+## <a name="37">20. 开发工具</a><a style="float:right;text-decoration:none;" href="#index"> [Top]</a>
+
+1. [AndroidStudio](https://developer.android.google.cn/studio)
+
+   Android应用开发工具。
+
+2. [JSON Editor Online](http://jsoneditoronline.org/)
+
+   Json数据在线格式化网站。
+
+3. [Postman](https://www.postman.com/)
+   
+   接口调试工具。
+
+4. [ProcessOn](https://www.processon.com/)
+
+   专业强大的作图工具，支持多人实时在线协作，可用于流程图、思维导图、原型图、UML、BPMN、网络拓扑图等多种图形绘制。
+
+5. 反编译工具
+
+   * [Decompilers online](http://www.javadecompilers.com/)
+   
+     在线反编译工具，支持Android Apk反编译生成源代码。
+
+   * [jadx](https://github.com/skylot/jadx)
+   
+     反编译工具，同时支持命令行和图形界面。从 Android Dex 和 Apk 文件生成 Java 源代码。
+
+6. 网络请求抓包工具
+
+   * [Charles](https://www.charlesproxy.com/)
+   
+ 
+   * [Fiddler](https://www.telerik.com/download/fiddler-everywhere)
+
+7. Markdown编辑器 
+
+   * [Atom](https://atom.io/)
+   
+     GitHup平台出品。可以说是专门为程序员推出的一个文本编辑器，界面简洁，支持实时预览。功能非常多，除了Markdown同时支持CSS，HTML，JavaScript等网页编程语言，还支持宏定义，自动分屏功能等。Atom还具有语义输入模式，比例输入code即会自动开启代码模式。
+
+   * [Typora](https://www.typora.io/)
+
+     一款轻便简洁的Markdown编辑器，支持即时渲染技术，这也是与其他Markdown编辑器最显著的区别。其他Markdown编辑器一般是有两窗口，左边是编辑区，右边是预览区。而Typora只有一个编辑区，写Markdown就像是写Word文档一样流畅，所见即所得。
+
+
+   另外还有其他一些比较主流的编辑器，可以看下这边[文章](https://blog.csdn.net/davidhzq/article/details/100815332)
+
+8. Sqlite数据库可视化工具
+   
+   * [SQLiteStudio](https://sqlitestudio.pl/)
+     
+     免费。更新及时，功能完善的sqlite2和sqlite3工具，视图编码支持utf8。支持导出数据格式：csv、html、plain、sql、xml，可同时打开多个数据库文件支持查看和编辑二进制字段
+
+   * [DB Browser for SQLite](https://sqlitebrowser.org/)
+    
+     免费。简单易用，具有基本数据库管理查询功能，并且能够导入和导出数据表，导入支持sql文件和csv文件两种方式，导出支持sql文件，csv文件，json文件方式。
+     
+
+## <a name="38">21. 插件</a><a style="float:right;text-decoration:none;" href="#index"> [Top]</a>
+
+### <a name="39">21.1. AndroidStudio插件</a><a style="float:right;text-decoration:none;" href="#index"> [Top]</a>
+
+1. GsonFormatPlus
+   
+   将 Json 字符串快速转成 JavaBean 对象，免去我们根据 Json 字符串手写对应 Java Bean 的过程。
+
+2. EventBus3-IDEA
+
+   为 EventBus 提供快速索引和跳转（目前只支持 EventBus 3.x 版本）。从 EventBus.post 到 @Subscribe 或者 onEventMainThread。从 @Subscribe 到 EventBus.post
+
+3. Translation
+   
+   Android Studio 翻译插件。 
+
+4. MVPHelper
+
+   可以为MVP生成接口以及实现类，解放双手。
+
+5. Lifecycle Sorter
+
+   可以根据Activity或者fragment的生命周期对其生命周期方法位置进行先后排序， Windows 快捷键Ctrl + alt + K . Mac 快捷键 option + command + K
+
+
+### <a name="40">21.2. Chrome插件</a><a style="float:right;text-decoration:none;" href="#index"> [Top]</a>
+
+1. [掘金插件](https://juejin.cn/extension/)
+
+2. [Google Helper](http://googlehelper.net/)
+
+   谷歌上网助手。供开发人员、跨境工作者和研究机构使用，以保护和加速互联网冲浪（翻墙）。能访问google的一些网站。
+
+## <a name="41">22. 技术网站/公众号/学习资料等</a><a style="float:right;text-decoration:none;" href="#index"> [Top]</a>
+
+### <a name="42">22.1. 网站</a><a style="float:right;text-decoration:none;" href="#index"> [Top]</a>
+1. [Android官网](https://developer.android.com/)
+2. [Android中文网](https://developer.android.google.cn/)
+3. [Kotlin语言官网](https://kotlinlang.org/)
+4. [Kotlin语言中文网](https://www.kotlincn.net/)
+5. [Android Developers Blog](https://android-developers.googleblog.com/)
+6. [掘金](https://juejin.cn/)
+7. [CSDN](https://www.csdn.net/)
+8. [泡在网上的日子](http://www.jcodecraeer.com/)
+9. [美团技术团队](https://tech.meituan.com/)
+10. [腾讯技术工程(知乎网)](https://www.zhihu.com/org/teng-xun-ji-zhu-gong-cheng/posts)
+11. [阿里技术](https://102.alibaba.com/)
+12. [阿里技术(知乎网)](https://www.zhihu.com/org/a-li-ji-zhu)
+
+### <a name="43">22.2. 微信公众号</a><a style="float:right;text-decoration:none;" href="#index"> [Top]</a>
+1. Android开发者
+2. 谷歌开发者
+3. 安卓开发精选
+4. 郭霖
+5. 鸿洋
+6. 美团技术团队
+7. 阿里技术
+8. 腾讯技术工程
+9. WeMobileDev
+
+### <a name="44">22.3. 应用软件</a><a style="float:right;text-decoration:none;" href="#index"> [Top]</a>
+1. 掘金
+2. 知乎
+3. CSDN
+
+### <a name="45">22.4. 书籍</a><a style="float:right;text-decoration:none;" href="#index"> [Top]</a>
+1. Java编程思想
+2. Effective Java
+3. 代码整洁之道（Clean Code）
+4. Gof设计模式
+5. HeadFirst设计模式
